@@ -4,7 +4,8 @@ def snake_it_up(string)
   if string[0] == "s"
     n = 0
     while n < 10 do 
-      "s" + string
+      #"s" + string
+      string.prepend("s")
       n +=1
     end 
     string

@@ -7,7 +7,7 @@ def snake_it_up(string)
       string.prepend("s")
       n +=1
     end 
-    string
+    #string
   else
     string
   end
